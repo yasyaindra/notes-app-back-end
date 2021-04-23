@@ -32,7 +32,6 @@ const addNoteHandler = (request, h) => {
         message:"Catatan gagal ditambahkan"
     })
     reponse.code(500)
-    response.header('Access-Control-Allow-Origin', 'http://ec2-13-212-153-62.ap-southeast-1.compute.amazonaws.com:8000/');
     return response
 }
 
